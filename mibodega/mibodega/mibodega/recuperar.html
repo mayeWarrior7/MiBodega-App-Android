@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar contraseña</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <img
+            src="assets/logo.png"
+            alt="Mi Bodega"
+            class="logo">
+
+        <div class="form-card">
+
+            <h2>Bienvenido</h2>
+
+            <h3>Olvidaste tu contraseña?</h3>
+
+            <p class="description">
+                Escribe el correo electrónico registrado
+                para recibir un enlace de recuperación.
+            </p>
+
+            <form id="recoveryForm">
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="E-mail"
+                    required>
+
+                <button type="submit">
+                    Restablecer contraseña
+                </button>
+
+            </form>
+
+            <div id="mensaje"></div>
+
+            <br>
+
+            <a href="index.html" class="link">
+                Volver al inicio de sesión
+            </a>
+
+        </div>
+
+    </div>
+
+    <script src="js/recuperar.js"></script>
+
+</body>
+
+</html>

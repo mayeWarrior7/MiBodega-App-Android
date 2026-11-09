@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | MiBodega</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h2>📊 Dashboard</h2>
+
+    <!-- TARJETAS PRINCIPALES -->
+
+    <div class="dashboard">
+
+        <div class="card">
+            <h3>📦 Total productos</h3>
+            <span>125</span>
+            <p>120 activos</p>
+        </div>
+
+        <div class="card">
+            <h3>💰 Valor Inventario</h3>
+            <span>$15.500.000</span>
+            <p>COP estimado</p>
+        </div>
+
+        <div class="card">
+            <h3>📉 Stock Bajo</h3>
+            <span>15</span>
+            <p>Por debajo del mínimo</p>
+        </div>
+
+        <div class="card">
+            <h3>⚠️ Agotados</h3>
+            <span>8</span>
+            <p>Requieren reorden</p>
+        </div>
+
+    </div>
+
+    <!-- SEMÁFORO -->
+
+    <div class="dashboard-chart">
+
+        <h3>🚦 Estado del Inventario</h3>
+
+        <div class="barra">
+
+            <div class="verde">
+                🟢 117
+            </div>
+
+            <div class="amarillo">
+                🟡 15
+            </div>
+
+            <div class="rojo">
+                🔴 8
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ALERTAS -->
+
+    <div class="dashboard-chart">
+
+        <h3>🚨 Alertas de Inventario</h3>
+
+        <ul class="alert-list">
+
+            <li>
+                <div>
+                    🥤 Gaseosa Cola 2L
+                    <br>
+                    <small>8 unidades restantes</small>
+                </div>
+
+                <span class="badge-warning">
+                    Stock bajo
+                </span>
+            </li>
+
+            <li>
+                <div>
+                    🥛 Leche Entera 1L
+                    <br>
+                    <small>10 unidades restantes</small>
+                </div>
+
+                <span class="badge-warning">
+                    Stock bajo
+                </span>
+            </li>
+
+            <li>
+                <div>
+                    🧀 Queso Campesino
+                    <br>
+                    <small>0 unidades restantes</small>
+                </div>
+
+                <span class="badge-danger">
+                    Agotado
+                </span>
+            </li>
+
+            <li>
+                <div>
+                    🌾 Frijol Bola Roja 500g
+                    <br>
+                    <small>12 unidades restantes</small>
+                </div>
+
+                <span class="badge-warning">
+                    Stock bajo
+                </span>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <!-- CATEGORÍAS -->
+
+    <div class="dashboard-chart">
+
+        <h3>📊 Por Categoría</h3>
+
+        <ul class="category-list">
+
+            <li>
+                <span>🥤 Bebidas</span>
+                <strong>$390K</strong>
+            </li>
+
+            <li>
+                <span>🥛 Lácteos</span>
+                <strong>$80K</strong>
+            </li>
+
+            <li>
+                <span>🌾 Granos</span>
+                <strong>$412K</strong>
+            </li>
+
+            <li>
+                <span>🧽 Limpieza</span>
+                <strong>$169K</strong>
+            </li>
+
+            <li>
+                <span>🍪 Snacks</span>
+                <strong>$311K</strong>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <!-- MENÚ -->
+
+    <nav class="bottom-nav">
+
+        <a href="dashboard.html">
+            🏠 Inicio
+        </a>
+
+        <a href="inventario.html">
+            📦 Inventario
+        </a>
+
+        <a href="perfil.html">
+            👤 Perfil
+        </a>
+
+    </nav>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Usuarios</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="contenedor-usuarios">
+
+        <h2>👥 Gestión de Usuarios</h2>
+
+        <button id="btnNuevoUsuario">
+            ➕ Nuevo Usuario
+        </button>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Correo</th>
+                    <th>Rol</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+
+            <tbody id="tablaUsuarios">
+
+            </tbody>
+
+        </table>
+
+        <br>
+
+        <button onclick="location.href='dashboard.html'">
+            ⬅ Volver
+        </button>
+
+    </div>
+
+    <script src="js/usuarios.js"></script>
+
+</body>
+</html>
